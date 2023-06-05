@@ -1,1 +1,48 @@
+const HEADER = "Hackathon";
+
+const NAVBAR_DATA = [
+  {id: 1, url: "#tracks", label: "Tracks"},
+  {id: 2, url: "#sponsors", label: "Sponsors"},
+  {id: 3, url: "#faq", label: "FAQ"},
+  {id: 4, url: "#footer", lable: "Contact Us"},
+];
+
+const BANNER_DATA = {
+  HEADING: "CUNY CSI Hackathon",
+  DESCRIPTION: "CUNY Wide Hackathon presented by the College of Staten Island Computer Science Club",
+};
+
+const TRACKS_DATA = {
+  HEADING: "Tracks",
+};
+
+const SPONSORS_DATA = {
+  HEADING: "Sponsors",
+  TITLE: "COMING SOON...",
+};
+
+const FAQ_DATA = {
+  HEADING: "FAQ",
+};
+
+const FOOTER_DATA = {
+  CONTACT_DETAILS: {
+    HEADING: "Contact Us",
+    EMAIL: "",
+  },
+  SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
+  SUBSCRIBE: "Subscribe"
+};
+
+const MOCK_DATA = {
+  HEADER,
+  NAVBAR_DATA,
+  BANNER_DATA,
+  TRACKS_DATA,
+  SPONSORS_DATA,
+  FAQ_DATA,
+  FOOTER_DATA,
+},
+export default MOCK_DATA
+
 
